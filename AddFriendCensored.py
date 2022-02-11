@@ -9,7 +9,7 @@ import time
 driver = webdriver.Chrome()
 
 
-#Okay I guess you gotta log in because of Headless Chrome
+#Log in because of Headless Chrome
 driver.get("https://spacehey.com/login") #navigate to home
 
 #WebDriverWait(driver,10000).until(EC.visibility_of_element_located((By.email,'body')))
